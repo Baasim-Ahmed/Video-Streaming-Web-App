@@ -45,7 +45,7 @@ export const MovieCard = ({ data }: Props) => {
           </div>
 
           <p className="text-green-400 font-semibold mt-4">
-            New <span className="text-white">2023</span>
+            New <span className="text-white">2024</span>
           </p>
 
           <div className="flex flex-row mt-4 gap-2 items-center">

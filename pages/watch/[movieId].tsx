@@ -20,7 +20,7 @@ const Watch = (props: Props) => {
             size={36}
           />
           <p className="text-white text-1xl md:text-3xl font-bold">
-            <span className="font-light">Whatching: </span>
+            <span className="font-light">Watching: </span>
             {data?.title}
           </p>
         </nav>
