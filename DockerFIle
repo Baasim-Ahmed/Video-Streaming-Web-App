@@ -1,0 +1,27 @@
+# Dockerfile
+
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package and lock file
+COPY package.json yarn.lock ./
+
+# Install dependencies
+RUN yarn install
+
+# Copy the entire project
+COPY . .
+
+# Generate Prisma client
+RUN npx prisma generate
+
+# Build the Next.js app
+RUN yarn build
+
+# Expose port
+EXPOSE 3000
+
+# Start the app
+CMD ["yarn", "start"]

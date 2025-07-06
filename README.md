@@ -1,5 +1,5 @@
 
-# Netflix Clone - Video Streaming Web App
+# Netflix Clone - Video Streaming Web App  (Docker Addition)
 
 Welcome to the **Netflix Clone**, a video streaming web application designed to deliver a premium video streaming experience. This project replicates key features of the popular Netflix platform, including user authentication, video playback, personalized recommendations, and more.
 
